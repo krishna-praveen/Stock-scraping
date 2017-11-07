@@ -5,10 +5,13 @@ Change the working directory to spiders folder in marketwatch/spiders and open c
 
 run the follwing assuming you have installed scrapy in python 3.5
 
+```
 $ scrapy crawl marketwatchspider -o stocks.json
-
+```
 To create a json file to have a list of all stocks
 
-$ scrapy crawl coinbasespider -o mutualfunds.json
 
+```
+$ scrapy crawl coinbasespider -o mutualfunds.json
+```
 To create a json file listing all the important mutual funds
