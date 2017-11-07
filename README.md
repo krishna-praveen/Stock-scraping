@@ -3,7 +3,9 @@ This project will scrape data from marketwatch.com for getting all listed indian
 
 Change the working directory to spiders folder in marketwatch/spiders and open command line from there.
 
-run the follwing assuming you have installed scrapy in python 3.5
+You need to have PhantomJs driver to be downloaded if you dont have it from this [link](https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip)
+
+Run the follwing assuming you have installed scrapy in python 3.5
 
 ```
 $ scrapy crawl marketwatchspider -o stocks.json
