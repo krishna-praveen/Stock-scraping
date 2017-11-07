@@ -41,7 +41,7 @@ class MarketwatchSeleniumSpider(scrapy.Spider):
         logging.info("The TestSpider is initialized")
         # path should be given for phantomjs exe, also have to keeep 'r' before the path
         # https://stackoverflow.com/questions/29869757/selenium-phantomjs-raises-error
-        self.driver = webdriver.PhantomJS(executable_path =r'C:\Users\nunnavk\Documents\Python Scripts\phantomjs\bin\phantomjs.exe')
+        self.driver = webdriver.PhantomJS(executable_path =r'Path for PhantomJS.exe file')
         logging.info("Webdriver from selenium is started")
     
         
